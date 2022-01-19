@@ -12,20 +12,23 @@ body{
 
 .container{
   background-color: white;
-  height: 1300px;
+  height: 100%;
   width: 70%;
   margin: auto;
 }
 
 .logobox{
-  height: auto;
-  margin: auto;
+  height: 40%;
+  /*height: auto;*/
+  /*margin: auto;*/
+  /*margin-bottom: -4px;*/
 }
 
-.logobox img{
+.backgroundimage{
   width: 60%;
-  padding-left: 20%;
+  margin-left: 20%;
   position: relative;
+  margin-bottom: -4px;
 }
 
 .logotypetext{
@@ -41,6 +44,14 @@ body{
   text-decoration: underline;
 }
 
+.whitelogo{
+  width: 20%;
+  margin-left: 25%;
+  margin-top: 22.4%;
+  z-index: 1;
+  position: absolute;
+}
+
 .infodiv{
   background-color: rgb(49, 45, 51);
   height: auto;
@@ -53,7 +64,7 @@ body{
 
 .infotext{
   color: lightgray;
-  font-size: 15px;
+  font-size: 0.9vw;
   margin-left: 25%;
   margin-right: 25%;
 }
@@ -68,17 +79,24 @@ body{
   text-align: center;
 }
 
-.contactdiv img{
-  width: 100%;
-  height: 60%;
-  margin-top: 8%;
-  z-index: 0
+.imagetextdiv{
+  width: 50%;
+  height: 80%;
+  z-index: 0;
+  margin-right: 0%;
+}
+
+.imagetextdiv img{
+  width: 80%;
+  height: 80%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .contactdiv p{
   display: block;
   color: white ;
-  font-size: 15px;
+  font-size: 0.9vw;
   z-index: 1;
   height: 20%;
   margin-bottom: 0px;
@@ -98,10 +116,10 @@ footer img{
 
 footer p{
   Color: black;
-  font-size: 15px;
+  font-size: 0.9vw;
   height: 70%;
   width: 40%;
   margin-bottom: 0px;
   margin-left: 10%;
-  margin-top: 5%;
+  margin-top: 3.5%;
 }
